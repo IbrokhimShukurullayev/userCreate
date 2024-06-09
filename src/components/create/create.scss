@@ -1,0 +1,75 @@
+.user {
+  padding: 50px 0;
+  display: flex;
+  //   justify-content: space-between;
+  gap: 50px;
+  &__right {
+    display: grid;
+    grid-template-columns: repeat(2, 320px);
+    gap: 35px;
+  }
+}
+
+form {
+  div {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    column-gap: 35px;
+    row-gap: 20px;
+    input,
+    select {
+      border: 1px solid #999;
+      width: 100%;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      border-radius: 5px;
+    }
+  }
+  textarea {
+    border: 1px solid #999;
+    margin: 20px 0;
+    padding: 10px 20px;
+    width: 835px;
+    border-radius: 5px;
+  }
+  button {
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 15px 55px;
+  }
+}
+
+.users__card {
+  padding: 20px;
+  box-shadow: 0 0 8px #0002, 15px 15px 15px #0001;
+  line-height: 1.6;
+  border-radius: 10px;
+  height: 100%;
+}
+.users__card img {
+  width: 100%;
+}
+.users__card h2 {
+  color: dodgerblue;
+}
+.users__card button {
+  padding: 6px 20px;
+  background: #fff;
+  border: 1px solid #999;
+  color: #000;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+.users__card button:active {
+  opacity: 0.7;
+}
+
+.user__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
