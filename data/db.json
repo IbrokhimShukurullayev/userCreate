@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "ibrohim_shukurullayev",
+      "email": "ibrokhimjonshukurullayev",
+      "address": "Jizzakh",
+      "gender": "male",
+      "comment": "sjkbgahiebgiolaebgikae",
+      "fname": "Shukurullayev",
+      "lname": "Ibrohim"
+    },
+    {
+      "id": "c28e",
+      "fname": "shukurullayev",
+      "lname": "ibrohim",
+      "username": "nnuu",
+      "email": "ibrokhimjonshukurullayev@gmail.com",
+      "address": "aregsfaesz",
+      "gender": "female",
+      "comment": "l"
+    },
+    {
+      "id": "22bf",
+      "fname": "shukurullayev",
+      "lname": "ibrohim",
+      "username": "",
+      "email": "ibrokhimjonshukurullayev@gmail.com",
+      "address": "aregsfaesz",
+      "gender": "male",
+      "comment": ""
+    }
+  ]
+}
